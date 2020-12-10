@@ -8,10 +8,10 @@ const UPDATE_PROFILE = 'UPDATE_PROFILE';
 
 const actions = {
   async getConfig() {
-    console.log('getConfig')
+    console.log('getConfig');
   },
   async getProfile() {
-    console.log('getProfile')
+    console.log('getProfile');
   },
 };
 

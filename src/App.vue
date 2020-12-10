@@ -7,22 +7,18 @@
 
 <script>
 import { mapState } from 'vuex';
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
   },
 
   computed: {
     ...mapState('Game', ['config']),
   },
-
-  created() {
-    console.log(this);
-  },
-}
+};
 </script>
 
 <style>
